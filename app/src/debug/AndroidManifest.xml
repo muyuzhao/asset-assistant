@@ -1,0 +1,4 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <instrumentation android:name="local.asset.assistant.SmokeTest" android:targetPackage="local.asset.assistant" android:label="Local storage smoke tests" />
+    <instrumentation android:name="local.asset.assistant.LiveCheck" android:targetPackage="local.asset.assistant" android:label="Explicit live read verification" />
+</manifest>
